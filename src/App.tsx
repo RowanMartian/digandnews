@@ -2,8 +2,9 @@ import { useState, useMemo, useEffect } from 'react';
 import { DigGlobe } from './components/DigGlobe';
 import { DigDetailPanel } from './components/DigDetailPanel';
 import { NewsSection } from './components/NewsSection';
-import { digs } from './data/digs';
+import { defaultDigs } from './data/digs';
 import { defaultNews } from './data/news';
+import { fetchDigs } from './lib/fetchDigs';
 import { fetchNewsFromFeeds } from './lib/fetchNews';
 import type { Dig } from './data/digs';
 import type { NewsCategory, NewsItem } from './data/news';
@@ -27,8 +28,17 @@ export default function App() {
   const [selectedDig, setSelectedDig] = useState<Dig | null>(null);
   const [digFilter, setDigFilter] = useState<DigFilter>('all');
   const [newsCategory, setNewsCategory] = useState<NewsCategory | 'all'>('all');
+  const [digs, setDigs] = useState<Dig[]>(defaultDigs);
   const [newsItems, setNewsItems] = useState<NewsItem[]>(defaultNews);
   const [newsLoading, setNewsLoading] = useState(true);
+
+  useEffect(() => {
+    fetchDigs()
+      .then((fetched) => {
+        if (fetched.length > 0) setDigs(fetched);
+      })
+      .catch(() => {});
+  }, []);
 
   useEffect(() => {
     setNewsLoading(true);

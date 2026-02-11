@@ -22,7 +22,7 @@ export interface DigNewsItem {
   link?: string;
 }
 
-export const digs: Dig[] = [
+export const defaultDigs: Dig[] = [
   {
     id: 'giza',
     name: 'Giza Plateau',

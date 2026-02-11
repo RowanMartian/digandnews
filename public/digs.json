@@ -1,0 +1,97 @@
+[
+  {
+    "id": "giza",
+    "name": "Giza Plateau",
+    "kind": "archaeology",
+    "lat": 29.9765,
+    "lng": 31.1314,
+    "country": "Egypt",
+    "region": "Cairo",
+    "description": "Ongoing work around the Great Pyramids and Sphinx; new corridors and non-invasive surveys.",
+    "startYear": 1842,
+    "status": "active",
+    "news": [
+      { "id": "g1", "title": "New corridor detected in Great Pyramid", "date": "2025-01-15", "excerpt": "Scanning project reveals previously unknown passage in Khufu's pyramid." },
+      { "id": "g2", "title": "Sphinx enclosure restoration phase two", "date": "2024-11-02", "excerpt": "Conservation work continues on the eastern enclosure walls." }
+    ]
+  },
+  {
+    "id": "pompeii",
+    "name": "Pompeii",
+    "kind": "archaeology",
+    "lat": 40.7502,
+    "lng": 14.4897,
+    "country": "Italy",
+    "region": "Campania",
+    "description": "Systematic excavation of Regio IX and preservation of existing structures.",
+    "startYear": 1748,
+    "status": "active",
+    "news": [
+      { "id": "p1", "title": "New frescoed thermopolium unveiled", "date": "2025-02-01", "excerpt": "Another street-food shop with vivid paintings opens to the public." },
+      { "id": "p2", "title": "Stable and chariot discovery in Civita Giuliana", "date": "2024-12-10", "excerpt": "Well-preserved ceremonial chariot and stable complex documented." }
+    ]
+  },
+  {
+    "id": "gobekli",
+    "name": "Göbekli Tepe",
+    "kind": "archaeology",
+    "lat": 37.2232,
+    "lng": 38.9224,
+    "country": "Turkey",
+    "region": "Şanlıurfa",
+    "description": "Neolithic sanctuary; ongoing excavation and interpretation of T-shaped pillars.",
+    "startYear": 1995,
+    "status": "active",
+    "news": [
+      { "id": "gt1", "title": "New enclosure details published", "date": "2025-01-20", "excerpt": "Radiocarbon and stratigraphy refine the chronology of Enclosure D." }
+    ]
+  },
+  {
+    "id": "hell-creek",
+    "name": "Hell Creek Formation",
+    "kind": "paleontology",
+    "lat": 46.0,
+    "lng": -105.5,
+    "country": "USA",
+    "region": "Montana",
+    "description": "Late Cretaceous fossils; dinosaurs, mammals, and plants. Multiple institutions dig here.",
+    "startYear": 1902,
+    "status": "seasonal",
+    "news": [
+      { "id": "hc1", "title": "New ceratopsian species described", "date": "2025-02-05", "excerpt": "Partial skull and postcrania suggest a distinct taxon near Triceratops." },
+      { "id": "hc2", "title": "T. rex juvenile growth series study", "date": "2024-10-12", "excerpt": "Histology and CT scans shed light on growth rates and life history." }
+    ]
+  },
+  {
+    "id": "kem-kem",
+    "name": "Kem Kem Group",
+    "kind": "paleontology",
+    "lat": 31.1,
+    "lng": -4.0,
+    "country": "Morocco",
+    "region": "Errachidia",
+    "description": "Cretaceous faunas: Spinosaurus, Carcharodontosaurus, and diverse aquatic reptiles.",
+    "startYear": 1930,
+    "status": "active",
+    "news": [
+      { "id": "kk1", "title": "Spinosaurus tail and locomotion debate", "date": "2025-01-08", "excerpt": "New material fuels discussion on aquatic vs. terrestrial habits." },
+      { "id": "kk2", "title": "Pterosaur diversity in Kem Kem", "date": "2024-11-20", "excerpt": "Revision of azhdarchid and other pterosaur remains from the region." }
+    ]
+  },
+  {
+    "id": "patagonia",
+    "name": "Patagonia (Multiple Sites)",
+    "kind": "paleontology",
+    "lat": -46.5,
+    "lng": -69.0,
+    "country": "Argentina",
+    "region": "Chubut / Santa Cruz",
+    "description": "Mesozoic dinosaurs and Cenozoic mammals; titanosaurs, theropods, and megafauna.",
+    "startYear": 1887,
+    "status": "seasonal",
+    "news": [
+      { "id": "pt1", "title": "New titanosaur nesting site", "date": "2025-02-03", "excerpt": "Eggs and embryos provide insight into sauropod reproductive biology." },
+      { "id": "pt2", "title": "Megaraptoran theropod description", "date": "2024-12-01", "excerpt": "New genus and species from Late Cretaceous beds." }
+    ]
+  }
+]
